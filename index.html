@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Konato Project</title>
+  </head>
+  <body>
+    <div  class="header">
+      <header class="container">
+        <div  class="logo-header">
+          <a href="#">
+            <img
+              class="logo-header"
+              src="./assets/images/logo.png"
+              alt="logo"
+            />
+          </a>
+        </div>
+        <ul class="header-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Property</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="header-right">
+          <li>
+            <a href="tel:+10783563276"
+              >Call Us: <span class="phone">+10 (78) 356 3276</span></a
+            >
+          </li>
+          <li><a class="signin" href="#">Sign In</a></li>
+        </ul> 
+
+        <div class="hamburger-menu">
+          <input type="checkbox" id="hamburger" />
+          <label for="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Property</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+
+          </ul>
+        </div>
+      </header>
+    </div>
+    <div class="topbar">
+      <div class="container top">
+        <div class="onlyMobile">
+          <a class="btn-call" href="#">Call Us: 
+            <span>+10 (78) 356 3276</span>
+          </a>
+
+          <a class="btn-signin" href="#">
+            Sign In
+          </a>
+        </div>
+        <form>
+          <div id="gotop" class="input-search">
+            <input type="text" placeholder="Enter Keyword.." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="select">
+            <select name="Rent" id="rent">
+              <option value="Rent">Rent 1</option>
+              <option value="Rent">Rent 2</option>
+              <option value="Rent">Rent 3</option>
+              <option value="Rent">Rent 4</option>
+            </select>
+            <i class="fa-solid fa-children"></i>
+          </div>
+          <div class="select">
+            <select name="Bed" id="Bed">
+              <option value="Bed">Bed 1</option>
+              <option value="Bed">Bed 2</option>
+              <option value="Bed">Bed 3</option>
+              <option value="Bed">Bed 4</option>
+            </select>
+            <i class="fa-solid fa-bed"></i>
+          </div>
+          <div class="select">
+            <select name="Bath" id="Bath">
+              <option value="Bath">Bath 1</option>
+              <option value="Bath">Bath 2</option>
+              <option value="Bath">Bath 3</option>
+              <option value="Bath">Bath 4</option>
+            </select>
+            <i class="fa-solid fa-bath"></i>
+          </div>
+          <button class="search">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span>3 Bed - 2 Bath - 2200 Sq Ft</span>
+          <h1>Light House NY</h1>
+          <p>
+            Get started by choosing from one of our pre-built page templates to
+            showcase your properties
+          </p>
+          <span class="price">$ 3,272</span>
+          <button class="btn-viewProperty">View Property</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-items">
+      <div class="container">
+        <div class="description">
+          <h2>Display Latest & Featured Properties</h2>
+          <p>
+            Get started by choosing from one of our pre-built page templates to
+            showcase your properties
+          </p>
+        </div>
+        <div class="flex-latest-items">
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/images/items1.jpg" alt="room" />
+            </div>
+            <div class="card-main">
+              <span>$ 6728</span>
+              <a href="#">Office</a>
+              <p>
+                Get started by choosing from one of our pre-built page templates
+                to showcase your properties
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="footer-icon">
+                <i class="fa-solid fa-bed"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-solid fa-bath"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-regular fa-building"></i>
+                <span>2 bedroom</span>
+              </div>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="card-img">
+              <img src="./assets/images/items2.jpg" alt="room" />
+            </div>
+            <div class="card-main">
+              <span>$ 6728</span>
+              <a href="#">Aparment</a>
+              <p>
+                Get started by choosing from one of our pre-built page templates
+                to showcase your properties
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="footer-icon">
+                <i class="fa-solid fa-bed"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-solid fa-bath"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-regular fa-building"></i>
+                <span>2 bedroom</span>
+              </div>
+            </div>
+          </div>
+          <div class="card last">
+            <div class="card-img">
+              <img src="./assets/images/items1.jpg" alt="room" />
+            </div>
+            <div class="card-main">
+              <span>$ 6728</span>
+              <a href="#">Office</a>
+              <p>
+                Get started by choosing from one of our pre-built page templates
+                to showcase your properties
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="footer-icon">
+                <i class="fa-solid fa-bed"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-solid fa-bath"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-regular fa-building"></i>
+                <span>2 bedroom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2>How we help people?</h2>
+        <div class="services-flex">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <a href="#">Sell home or office </a>
+            <p>
+              Get started by choosing from one of our pre-built page templates
+              to showcase your properties
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <a href="#">Sell home or office </a>
+            <p>
+              Get started by choosing from one of our pre-built page templates
+              to showcase your properties
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <a href="#">Sell home or office </a>
+            <p>
+              Get started by choosing from one of our pre-built page templates
+              to showcase your properties
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest-items">
+      <div class="container">
+        <div class="description">
+          <h2>Properties for Sale</h2>
+        </div>
+        <div class="flex-latest-items">
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/images/items1.jpg" alt="room" />
+            </div>
+            <div class="card-main">
+              <span>$ 6728</span>
+              <a href="#">Office</a>
+              <p>
+                Get started by choosing from one of our pre-built page templates
+                to showcase your properties
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="footer-icon">
+                <i class="fa-solid fa-bed"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-solid fa-bath"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-regular fa-building"></i>
+                <span>2 bedroom</span>
+              </div>
+            </div>
+          </div>
+          <div class="card second">
+            <div class="card-img">
+              <img src="./assets/images/items2.jpg" alt="room" />
+            </div>
+            <div class="card-main">
+              <span>$ 6728</span>
+              <a href="#">Aparment</a>
+              <p>
+                Get started by choosing from one of our pre-built page templates
+                to showcase your properties
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="footer-icon">
+                <i class="fa-solid fa-bed"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-solid fa-bath"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-regular fa-building"></i>
+                <span>2 bedroom</span>
+              </div>
+            </div>
+          </div>
+          <div class="card last">
+            <div class="card-img">
+              <img src="./assets/images/items1.jpg" alt="room" />
+            </div>
+            <div class="card-main">
+              <span>$ 6728</span>
+              <a href="#">Office</a>
+              <p>
+                Get started by choosing from one of our pre-built page templates
+                to showcase your properties
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="footer-icon">
+                <i class="fa-solid fa-bed"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-solid fa-bath"></i>
+                <span>2 bedroom</span>
+              </div>
+              <div class="footer-icon">
+                <i class="fa-regular fa-building"></i>
+                <span>2 bedroom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="container">
+        <div class="container-explore">
+          <div class="explore-description">
+            <h2>
+              Explore <br />
+              by Property Type
+            </h2>
+            <p>
+              Get started by choosing from one of our pre-built page templates
+              to showcase your properties
+            </p>
+            <a href="#" class="btn-explore">View All Property</a>
+          </div>
+          <div class="explore-items">
+            <div class="explore-item">
+              <div class="explore-img">
+                <img src="./assets/images/svg/property1.svg" alt="room" />
+              </div>
+              <div class="explore-main">
+                <a href="#">Home</a>
+              </div>
+            </div>
+            <div class="explore-item">
+              <div class="explore-img">
+                <img src="./assets/images/svg/property2.svg" alt="room" />
+              </div>
+              <div class="explore-main">
+                <a href="#">Villa</a>
+              </div>
+            </div>
+            <div class="explore-item">
+              <div class="explore-img">
+                <img src="./assets/images/svg/property3.svg" alt="room" />
+              </div>
+              <div class="explore-main">
+                <a href="#">Studio</a>
+              </div>
+            </div>
+            <div class="explore-item">
+              <div class="explore-img">
+                <img src="./assets/images/svg/property4.svg" alt="room" />
+              </div>
+              <div class="explore-main">
+                <a href="#">Office</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="agents">
+      <div class="container">
+        <div class="agents-description">
+          <h2>Our Agents</h2>
+          <p>
+            Get started by choosing from one of our pre-built page templates to
+            showcase your properties
+          </p>
+        </div>
+        <div class="agents-flex">
+          <div class="agent-flex-item">
+            <div class="agent-img">
+              <img src="./assets/images/team1.jpg" alt="agent" />
+            </div>
+            <div class="agent-main">
+              <a href="#">Buster Hyman</a>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="agent-flex-item mobDisappear">
+            <div class="agent-img">
+              <img src="./assets/images/team2.jpg" alt="agent" />
+            </div>
+            <div class="agent-main">
+              <a href="#">Buster Hyman</a>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="agent-flex-item disappear">
+            <div class="agent-img">
+              <img src="./assets/images/team3.jpg" alt="agent" />
+            </div>
+            <div class="agent-main">
+              <a href="#">Nick R. Bocker</a>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="agent-flex-item disappear">
+            <div class="agent-img">
+              <img src="./assets/images/team4.jpg" alt="agent" />
+            </div>
+            <div class="agent-main">
+              <a href="#">John Doe</a>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe-description">
+        <h2> 
+          Subscribe Newsletter
+        </h2>
+        <p>
+          Get started by choosing from one of our pre-built page templates to
+          showcase your properties
+        </p>
+        <form>
+          <input type="email" placeholder="Enter your email" />
+          <button class="btn-subscribe" type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="subscribe-img">
+        <img src="./assets/images/subscribe.jpg" alt="subscribe" />
+      </div>
+    </section>
+
+    <footer>
+      <a href="#gotop" class="btn-gotop">
+        <i class="fa-solid fa-arrow-up"></i>
+
+      </a>
+      <div class="container">
+          <div class="footer-container">
+            <div class="footer-flex-item flex1">
+              <div class="footer-logo">
+                <img src="./assets/images/footer.png" alt="logo">
+              </div>
+              <div class="footer-description">
+                <p>
+                  Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum
+                </p>
+                <ul class="footer-social" >
+                  <li><a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a></li>
+                  <li><a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a></li>
+                  <li><a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a></li>
+                  <li><a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a></li>
+                </ul>
+            </div> 
+            </div>
+
+            <div class="footer-flex-item flex2">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-flex-item flex3">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#">Drone Mapping</a></li>
+                <li><a href="#">Real State</a></li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">Construction</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-flex-item flex4">
+              <h4>Support</h4>
+              <ul>
+                <li><a href="#">Drone Mapping</a></li>
+                <li><a href="#">Real State</a></li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">Construction</a></li>
+              </ul>
+            </div>
+            <div class="footer-flex-item flex5">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="#">Drone Mapping</a></li>
+                <li><a class="mail" href="mailto:contact@carwash.com">contact@carwash.com</a></li>
+                <li><a class="tel" href="tel:10 (87) 738-3940">10 (87) 738-3940</a></li>
+              </ul>
+            </div>
+          </div>
+
+      </div>
+    </footer>
+  </body>
+</html>
